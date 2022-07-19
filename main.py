@@ -44,3 +44,13 @@ class Battle:
 
         else:
             return "fight Again"
+            
+def main():
+    voltron = Warriors("Goke", 200, 20, 10)
+    galaxon = Warriors("Galaxon", 200, 20, 10)
+
+    battle = Battle()
+    battle.startFight(voltron, galaxon)
+
+if __name__ == '__main__':
+    main()
